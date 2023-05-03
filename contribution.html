@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동아제약</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/product.js"></script>
+    <link rel="stylesheet" href="css/contribution.css">
+    <link rel="stylesheet" href="css/reposive.css">
+</head>
+<body>
+  <div class="wrap">
+      <!-- header -->
+      <header>
+          <div class="logo">
+            <a href="index.html"></a>
+          </div>
+          <div class="right_menu">
+            <div class="lang">
+            </div>
+            <div class="menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+      </header>
+      <!-- sitemap -->
+      <div class="site_map">
+        <div class="map_navi">
+          <ul>
+            <li><p><a href="history.html">동아제약</a></p>
+              <div class="sub_menu">
+                <a href="#none">CEO 인사말</a>
+                <a href="#none">가치 및 비전</a>
+                <a href="history.html"><b>연혁</b></a>
+                <a href="#none">CI소개</a>
+                <a href="#none">위치</a>
+                <a href="#none">공고</a>
+              </div>
+            </li>
+            <li><p><a href="product.html">브랜드소개</a></p>
+              <div class="sub_menu">
+                <a href="#none">제품검색</a>
+                <a href="product.html"><b>신제품</b></a>
+                <a href="#none">일반의약품</a>
+                <a href="#none">의약외품</a>
+                <a href="#none">건강기능식품</a>
+                <a href="#none">생활건강/화장품</a>
+                <a href="#none">제품FAQ</a>
+                <a href="#none">제품소식</a>
+              </div>
+            </li>
+            <li><p>연구개발</p>
+              <div class="sub_menu">
+                <a href="#none">R&D</a>
+                <a href="#none">연구성과</a>
+                <a href="#none">과제 및 전략</a>
+              </div>
+            </li>
+            <li><p>정도경영</p>
+              <div class="sub_menu">
+                <a href="#none">정도경영 철학</a>
+                <a href="#none">사회적가치경영</a>
+                <a href="#none">인권경영</a>
+                <a href="#none">환경안전보건경영</a>
+                <a href="#none">준법경영</a>
+                <a href="#none">소비자중심경영</a>
+                <a href="#none">사회공헌</a>
+              </div>
+            </li>
+            <li><p>홍보</p>
+              <div class="sub_menu">
+                <a href="news.html">새소식</a>
+                <a href="#none">위드동아</a>
+                <a href="#none">AD카페</a>
+              </div></li>
+            <li><p>고객지원</p>
+              <div class="sub_menu">
+                <a href="#none">고객상담절차</a>
+                <a href="#none">온라인 상담</a>
+                <a href="#none">소비자 관련기준</a>
+                <a href="#none">감사 제보하기</a>
+              </div></li>
+            <li><p>비지니스</p>
+              <div class="sub_menu">
+                <a href="#none">PRM</a>
+                <a href="#none">인재채용</a>
+                <a href="#none">S*TERS</a>
+                <a href="#none">비지니스관련자CP</a>
+              </div></li>
+          </ul>
+        </div>
+      </div>
+      <!-- main -->
+      <main>
+          <!-- main -->
+          <div class="main">
+              <p>사회공헌</p>
+              <span>밝고 따듯한 사회를 만들기 위해 기업의 사회적책임을 다하겠습니다.</span>
+              <div class="menu_bar">
+                  <a href="index.html"><img src="image/icon/home.png" alt="home"></a>
+                  <select name="menu" id="menu">
+                      <option value="동아제약">동아제약</option>
+                      <option value="브랜드소개">브랜드소개</option>
+                      <option value="연구개발">연구개발</option>
+                      <option value="정도경영" selected>정도경영</option>
+                      <option value="홍보">홍보</option>
+                      <option value="감사제보하기">감사제보하기</option>
+                      <option value="고객지원">고객지원</option>
+                  </select>
+                  <select name="submenu" id="submenu">
+                      <option value="정도경영철학" selected>정도경영 철학</option>
+                      <option value="사회적가치경영">사회적가치경영</option>
+                      <option value="인권경영">인권경영</option>
+                      <option value="환경안전보건경영">환경안전보건경영</option>
+                      <option value="준법경영">준법경영</option>
+                      <option value="소비자중심경영">소비자중심경영</option>
+                      <option value="사회공헌">사회공헌</option>
+                      <option value="통합보고서">통합보고서</option>
+                  </select>
+              </div>
+          </div>
+          <div class="contents">
+            <div class="contribution_top">
+              <div class="total">
+                <p>총<b>177</b>개의 소식이 있습니다.</p>
+              </div>
+              <div class="contribution_search">
+                <select name="news" id="news">
+                  <option value="전체">전체</option>
+                  <option value="제목">제목</option>
+                  <option value="내용">내용</option>
+                  <option value="제목+내용">제목+내용</option>
+                </select>
+                <input type="text" placeholder="검색어를 입력해보세요.">
+                <a href="#none">
+                  <img src="image/icon/search.png" alt="검색">
+                </a>
+                <div class="sr">
+                  <select name="selectRow" id="selectRow">
+                    <option value="10">10줄씩 보기</option>
+                    <option value="20">20줄씩 보기</option>
+                    <option value="30">30줄씩 보기</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="contribution_list">
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_1.jpeg" alt="SAVE2SAVE캠페인">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아제약, ‘SAVE2SAVE 캠페인’ 서울대공원서 자원봉사활동</p>
+                    <span class="list_date">2023-03-28</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_2.jpeg" alt="약사금탑상">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">수석문화재단, 제49회 약사금탑상 시상</p>
+                    <span class="list_date">2023-03-14</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_3.jpeg" alt="문화체육관광부장관표창">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아제약, 문화체육관광부 장관 표창 수상</p>
+                    <span class="list_date">2023-03-06</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_4.jpeg" alt="합덕중-합덕제철고와업무협약">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아제약, 합덕중-합덕제철고와 업무협약</p>
+                    <span class="list_date">2023-01-13</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_5.jpeg" alt="함춘동아의학상시상">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">수석문화재단, 제26회 함춘학술상 중 ‘함춘동아의학상’ 시상</p>
+                    <span class="list_date">2022-12-20</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_6.jpeg" alt="취약계층대상파티온화장품·기부금전달">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아제약, 취약계층 대상 파티온 화장품·기부금 전달</p>
+                    <span class="list_date">2023-01-02</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_7.jpeg" alt="가그린수익금일부동물보호위해기부">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아제약, 가그린 수익금 일부 동물보호 위해 기부… 작년부터 누적 1억원 전달</p>
+                    <span class="list_date">2023-01-02</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_8.jpeg" alt="제40회마로니에여성백일장대회개회">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아쏘시오그룹, ‘제40회 마로니에 여성 백일장 대회’ 개최</p>
+                    <span class="list_date">2022-10-20</span>
+                  </div>
+                </a>
+              </div>
+              <div class="list_box">
+                <a href="#none">
+                  <div class="img">
+                    <img src="image/imges/contribution_9.jpeg" alt="제17회청소년환경사랑생명사랑교실개최">
+                  </div>
+                  <div class="text">
+                    <p class="list_title">동아ST, '제17회 청소년 환경사랑 생명사랑 교실' 개최</p>
+                    <span class="list_date">2022-07-28</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="pagenation">
+              <a href="#none"><img src="image/icon/big_arrow_prev.png" alt="page-prev"></a>
+              <a href="#none">1</a>
+              <a href="#none">2</a>
+              <a href="#none">3</a>
+              <a href="#none">4</a>
+              <a href="#none">5</a>
+              <a href="#none"><img src="image/icon/big_arrow_next.png" alt="page-next"></a>
+            </div>
+          </div>
+      </main>
+      <!-- footer -->
+      <footer>
+        <div class="f_top">
+          <div class="inner">
+            <div class="menu">
+              <a href="#none">개인정보처리방침</a>
+              <a href="#none">인재개발원</a>
+            </div>
+            <div class="select">
+              <select>
+                <option>Family Site</option>
+                <option>동아쏘시오홀딩스</option>
+                <option>동아ST</option>
+                <option>에스티팜</option>
+                <option>에스티젠바이오</option>
+                <option>참메드</option>
+                <option>동아제약</option>
+                <option>동아오츠카</option>
+                <option>동천수</option>
+                <option>용마로지스</option>
+                <option>수석</option>
+                <option>한국신동공업</option>
+                <option>DA인포메이션</option>
+                <option>아벤종합건설</option>
+                <option>Dong-A America Co.</option>
+                <option>소주동아음료유한공사</option>
+                <option>Dong-A</option>
+                <option>Participacoes Ltda</option>
+              </select>
+              <select>
+                <option>Brand Site</option>
+                <option>박카스</option>
+                <option>판피린</option>
+                <option>템포</option>
+                <option>베나치오</option>
+                <option>노스카나</option>
+                <option>모닝케어</option>
+                <option>써큐란</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="f_bottom">
+          <div class="inner">
+            <div class="company">
+              <div class="footer_logo">
+                <a href="index.html"><img src="image/imges/logo_footer.gif" alt="footer_logo"></a>
+              </div>
+              <div class="address">
+                <p>서울시 동대문구 천호대로 64 TEL. 02- 920 - 8112 <br>
+                Copyright DONG-A PHARM.ALL rughs reserved.</p>
+              </div>
+            </div>
+            <div class="mark">
+              <img src="image/imges/footer_ccms.gif" alt="ccms">
+              <img src="image/imges/footer_img_ci_v2.png" alt="ci">
+              <img src="image/imges/footer_ico_bsi.gif" alt="bsi">
+              <img src="image/imges/footer_award.jpg" alt="award">
+            </div>
+          </div>
+        </div>
+      </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동아제약</title>
+    <!-- cdn -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <!-- product script -->
+    <script src="js/product.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/reposive.css">
+</head>
+<body>
+  <div class="wrap">
+      <!-- header -->
+      <header>
+          <div class="logo">
+            <a href="index.html"></a>
+          </div>
+          <div class="right_menu">
+            <div class="lang">
+            </div>
+            <div class="menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+      </header>
+      <!-- sitemap -->
+      <div class="site_map">
+        <div class="map_navi">
+          <ul>
+            <li><p><a href="history.html">동아제약</a></p>
+              <div class="sub_menu">
+                <a href="#none">CEO 인사말</a>
+                <a href="#none">가치 및 비전</a>
+                <a href="history.html"><b>연혁</b></a>
+                <a href="#none">CI소개</a>
+                <a href="#none">위치</a>
+                <a href="#none">공고</a>
+              </div>
+            </li>
+            <li><p><a href="product.html">브랜드소개</a></p>
+              <div class="sub_menu">
+                <a href="#none">제품검색</a>
+                <a href="product.html"><b>신제품</b></a>
+                <a href="#none">일반의약품</a>
+                <a href="#none">의약외품</a>
+                <a href="#none">건강기능식품</a>
+                <a href="#none">생활건강/화장품</a>
+                <a href="#none">제품FAQ</a>
+                <a href="#none">제품소식</a>
+              </div>
+            </li>
+            <li><p>연구개발</p>
+              <div class="sub_menu">
+                <a href="#none">R&D</a>
+                <a href="#none">연구성과</a>
+                <a href="#none">과제 및 전략</a>
+              </div>
+            </li>
+            <li><p>정도경영</p>
+              <div class="sub_menu">
+                <a href="#none">정도경영 철학</a>
+                <a href="#none">사회적가치경영</a>
+                <a href="#none">인권경영</a>
+                <a href="#none">환경안전보건경영</a>
+                <a href="#none">준법경영</a>
+                <a href="#none">소비자중심경영</a>
+                <a href="contribution.html">사회공헌</a>
+              </div>
+            </li>
+            <li><p>홍보</p>
+              <div class="sub_menu">
+                <a href="news.html">새소식</a>
+                <a href="#none">위드동아</a>
+                <a href="#none">AD카페</a>
+              </div></li>
+            <li><p>고객지원</p>
+              <div class="sub_menu">
+                <a href="#none">고객상담절차</a>
+                <a href="#none">온라인 상담</a>
+                <a href="#none">소비자 관련기준</a>
+                <a href="#none">감사 제보하기</a>
+              </div></li>
+            <li><p>비지니스</p>
+              <div class="sub_menu">
+                <a href="#none">PRM</a>
+                <a href="recruit.html">인재채용</a>
+                <a href="#none">S*TERS</a>
+                <a href="#none">비지니스관련자CP</a>
+              </div></li>
+          </ul>
+        </div>
+      </div>
+      <!-- main -->
+      <main>
+          <!-- main -->
+          <div class="main">
+              <p>브랜드소개</p>
+              <span>국민 건강 증진에 기여하는 동아제약의 제품을 소개합니다.</span>
+              <div class="menu_bar">
+                  <a href="index.html"><img src="image/icon/home.png" alt="home"></a>
+                  <select name="menu" id="menu">
+                      <option value="동아제약">동아제약</option>
+                      <option value="브랜드소개" selected>브랜드소개</option>
+                      <option value="연구개발">연구개발</option>
+                      <option value="정도경영">정도경영</option>
+                      <option value="홍보">홍보</option>
+                      <option value="감사제보하기">감사제보하기</option>
+                      <option value="고객지원">고객지원</option>
+                  </select>
+                  <select name="submenu" id="submenu">
+                      <option value="제품검색">제품검색</option>
+                      <option value="신제품" selected>신제품</option>
+                      <option value="일반의약품">일반의약품</option>
+                      <option value="의약외품">의약외품</option>
+                      <option value="건강기능식품">건강기능식품</option>
+                      <option value="생활건강/화장품">생활건강/화장품</option>
+                      <option value="제품FAQ">제품FAQ</option>
+                      <option value="제품소식">제품소식</option>
+                  </select>
+              </div>
+          </div>
+          <!-- contents -->
+          <div class="contents">
+              <div class="search">
+                <div class="search_inner">
+                  <span>NEW PRODUCT</span>
+                  <h2>신제품</h2>
+                  <b>제품명 검색</b>
+                  <input type="text" placeholder="제품명을 입력해주세요.">
+                  <button><img src="image/icon/search_white.png" alt="제품명검색"></button>
+                  <br>
+                  <span class="account">검색하실 제품의 초성을 선택한 후 검색 버튼을 눌러주세요.</span>
+                  <b>한글명</b>
+                  <table>
+                    <tr>
+                      <td>ㄱ</td>
+                      <td>ㄴ</td>
+                      <td>ㄷ</td>
+                      <td>ㄹ</td>
+                      <td>ㅁ</td>
+                      <td>ㅂ</td>
+                      <td>ㅅ</td>
+                      <td>ㅇ</td>
+                      <td>ㅈ</td>
+                      <td>ㅊ</td>
+                      <td>ㅋ</td>
+                      <td>ㅌ</td>
+                      <td>ㅍ</td>
+                      <td>ㅎ</td>
+                    </tr>
+                  </table>
+                  <b>영문명</b>
+                  <table>
+                    <tr>
+                      <td>A</td>
+                      <td>B</td>
+                      <td>C</td>
+                      <td>D</td>
+                      <td>E</td>
+                      <td>F</td>
+                      <td>G</td>
+                      <td>H</td>
+                      <td>I</td>
+                      <td>J</td>
+                      <td>K</td>
+                      <td>L</td>
+                      <td>M</td>
+                    </tr>
+                    <tr>
+                      <td>N</td>
+                      <td>O</td>
+                      <td>P</td>
+                      <td>Q</td>
+                      <td>R</td>
+                      <td>S</td>
+                      <td>T</td>
+                      <td>U</td>
+                      <td>V</td>
+                      <td>W</td>
+                      <td>X</td>
+                      <td>Y</td>
+                      <td>Z</td>
+                    </tr>
+                  </table>
+                  <button>검색</button>
+                  <div class="selectbox">
+                    <p>제제별 검색</p>
+                    <select name="formulation" id="formulation">
+                      <option value="전체">전체</option>
+                      <option value="신제품">신제품</option>
+                      <option value="일반의약품">일반의약품</option>
+                      <option value="의약외품">의약외품</option>
+                      <option value="건강기능식품">건강기능식품</option>
+                      <option value="생활건강/화장품">생활건강/화장품</option>
+                    </select>
+                    <p>효능별 검색</p>
+                    <select name="efficacy" id="efficacy">
+                      <option value="건위소화제">건위소화제</option>
+                      <option value="영양제">영양제</option>
+                      <option value="순환기계">순환기계</option>
+                      <option value="기타">기타</option>
+                      <option value="혼합움료(식품)">혼합움료(식품)</option>
+                      <option value="캔디류(식품)">캔디류(식품)</option>
+                      <option value="기타의 비타민제">기타의 비타민제</option>
+                      <option value="기타의 외피용약">기타의 외피용약</option>
+                      <option value="화장품">화장품</option>
+                      <option value="소염/해열/진통제">소염/해열/진통제</option>
+                      <option value="남성용 콘돔(의료기기)">남성용 콘돔(의료기기)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="item">
+                  <a href="product_new_2.html">
+                    <img src="image/imges/new_1.png" alt="써큐란아르기닌">
+                    <span>신제품</span>
+                    <h3>써큐란 아르기닌 6000</h3>
+                    <h4>효능분류 : 혼합음료(식품)</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="product_new_3.html">
+                    <img src="image/imges/new_2.jpg" alt="써큐란코큐텐">
+                    <span>신제품</span>
+                    <h3>써큐란 코큐텐</h3>
+                    <h4>효능분류 : 영양제</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="product_new_1.html">
+                    <img src="image/imges/new_3.jpg" alt="알티지오메가">
+                    <span>신제품</span>
+                    <h3>써큐란 알티지오메가-3-1200</h3>
+                    <h4>효능분류 : 영양제</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#none">
+                    <img src="image/imges/new_4.jpg" alt="멜라토닝크림">
+                    <span>신제품</span>
+                    <h3>멜라토닝크림(히드로퀴논)</h3>
+                    <h4>효능분류 : 기타의 외피용약</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#none">
+                    <img src="image/imges/new_5.jpg" alt="판테놀연고">
+                    <span>신제품</span>
+                    <h3>동아제약 D-판테놀 연고</h3>
+                    <h4>효능분류 : 기타의 외피용약 </h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#none">
+                    <img src="image/imges/new_6.png" alt="치오맥스연고">
+                    <span>신제품</span>
+                    <h3>치오맥스 연고 25g</h3>
+                    <h4>효능분류 : 기타</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#none">
+                    <img src="image/imges/new_7.png" alt="디오라인정">
+                    <span>신제품</span>
+                    <h3>디오라인정 600밀리그램(디오스민)</h3>
+                    <h4>효능분류 : 순환기계</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#none">
+                    <img src="image/imges/new_8.png" alt="구미젤리-오렌지맛">
+                    <span>신제품</span>
+                    <h3>비타그란 비타민C 구미젤리 오렌지맛</h3>
+                    <h4>효능분류 : 영양제</h4>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#none">
+                    <img src="image/imges/new_9.png" alt="식물성-알티지오메가">
+                    <span>신제품</span>
+                    <h3>써큐란 식물성알티지오메가-3 1000</h3>
+                    <h4>효능분류 : 영양제</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="pagenation">
+                <a href="#none"><img src="image/icon/big_arrow_prev.png" alt="page-prev"></a>
+                <a href="#none">1</a>
+                <a href="#none">2</a>
+                <a href="#none">3</a>
+                <a href="#none">4</a>
+                <a href="#none">5</a>
+                <a href="#none"><img src="image/icon/big_arrow_next.png" alt="page-next"></a>
+              </div>
+          </div>
+      </main>
+      <!-- footer -->
+      <footer>
+        <div class="f_top">
+          <div class="inner">
+            <div class="menu">
+              <a href="#none">개인정보처리방침</a>
+              <a href="#none">인재개발원</a>
+            </div>
+            <div class="select">
+              <select>
+                <option>Family Site</option>
+                <option>동아쏘시오홀딩스</option>
+                <option>동아ST</option>
+                <option>에스티팜</option>
+                <option>에스티젠바이오</option>
+                <option>참메드</option>
+                <option>동아제약</option>
+                <option>동아오츠카</option>
+                <option>동천수</option>
+                <option>용마로지스</option>
+                <option>수석</option>
+                <option>한국신동공업</option>
+                <option>DA인포메이션</option>
+                <option>아벤종합건설</option>
+                <option>Dong-A America Co.</option>
+                <option>소주동아음료유한공사</option>
+                <option>Dong-A</option>
+                <option>Participacoes Ltda</option>
+              </select>
+              <select>
+                <option>Brand Site</option>
+                <option>박카스</option>
+                <option>판피린</option>
+                <option>템포</option>
+                <option>베나치오</option>
+                <option>노스카나</option>
+                <option>모닝케어</option>
+                <option>써큐란</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="f_bottom">
+          <div class="inner">
+            <div class="company">
+              <div class="footer_logo">
+                <a href="index.html"><img src="image/imges/logo_footer.gif" alt="footer_logo"></a>
+              </div>
+              <div class="address">
+                <p>서울시 동대문구 천호대로 64 TEL. 02- 920 - 8112 <br>
+                Copyright DONG-A PHARM.ALL rughs reserved.</p>
+              </div>
+            </div>
+            <div class="mark">
+              <img src="image/imges/footer_ccms.gif" alt="ccms">
+              <img src="image/imges/footer_img_ci_v2.png" alt="ci">
+              <img src="image/imges/footer_ico_bsi.gif" alt="bsi">
+              <img src="image/imges/footer_award.jpg" alt="award">
+            </div>
+          </div>
+        </div>
+      </footer>
+  </div>
+</body>
+</html>
